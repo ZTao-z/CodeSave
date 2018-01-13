@@ -1,6 +1,6 @@
 void Merge(int* arr, int left, int mid, int right){
 	int temp[right-left+1];
-	int i = left, j = mid + 1;
+	int i = left, j = mid+1;
 	int k = 0;
 	while(i != mid+1 && j != right+1){
 		if(arr[i] <= arr[j]){
