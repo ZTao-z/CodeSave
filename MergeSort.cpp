@@ -13,7 +13,7 @@ void Merge(int* arr, int left, int mid, int right){
 	while(i != mid+1) temp[k++] = arr[i++];
 	while(j != right+1) temp[k++] = arr[j++];
 	for(int h = left; h <= right; h++)
-		arr[h] = temp[h-left];
+		arr[h] = temp[h - left];
 }
 
 void MergeSort(int* arr, int left, int right){
